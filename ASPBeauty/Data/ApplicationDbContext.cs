@@ -14,7 +14,6 @@ namespace ASPBeauty.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }
         public DbSet<Promotion> Promotions { get; set; }
-        
         public DbSet<Cart> Carts { get; set; }
 
     }
