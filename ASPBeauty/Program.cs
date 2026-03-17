@@ -1,4 +1,5 @@
 using ASPBeauty.Data;
+using ASPBeauty.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,6 +26,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+app.PrepareDataBase().Wait();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

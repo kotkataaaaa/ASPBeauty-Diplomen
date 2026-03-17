@@ -40,7 +40,7 @@
                 @Html.DisplayFor(modelItem => item.Type.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ImageURL)
+                <img src="@item.ImageURL" alt="@item.Name" witdth="100px" height="145px"/>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)

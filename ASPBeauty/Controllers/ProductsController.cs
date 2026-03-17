@@ -47,7 +47,7 @@ namespace ASPBeauty.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["TypeId"] = new SelectList(_context.ProductTypes, "Id", "Id");
+            ViewData["TypeId"] = new SelectList(_context.ProductTypes, "Id", "Name");
             return View();
         }
 

@@ -6,16 +6,21 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPBeauty.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace ASPBeauty.Controllers
 {
+    [Authorize]
     public class CartsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Client> _userManager; 
 
-        public CartsController(ApplicationDbContext context)
+        public CartsController(ApplicationDbContext context, UserManager<Client> userManager)
         {
             _context = context;
+            _userManager = userManager; 
         }
 
         // GET: Carts
@@ -48,8 +53,7 @@ namespace ASPBeauty.Controllers
         // GET: Carts/Create
         public IActionResult Create()
         {
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id");
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name");
             return View();
         }
 
@@ -58,16 +62,17 @@ namespace ASPBeauty.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ClientId,ProductId")] Cart cart)
+        public async Task<IActionResult> Create([Bind("ProductId")] Cart cart)
         {
+           
             if (ModelState.IsValid)
             {
                 _context.Add(cart);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", cart.ProductId);
+          //  ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", cart.ProductId);
             return View(cart);
         }
 
