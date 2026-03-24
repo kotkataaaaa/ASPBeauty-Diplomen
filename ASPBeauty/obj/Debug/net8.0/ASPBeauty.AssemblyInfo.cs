@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPBeauty")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a0c18afc65c3ee5def3385100a5865ccee539ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPBeauty")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPBeauty")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
