@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1212-2\\Desktop\\Miha\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj": {}
+    "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1212-2\\Desktop\\Miha\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj": {
+    "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1212-2\\Desktop\\Miha\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj",
+        "projectUniqueName": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj",
         "projectName": "ASPBeauty",
-        "projectPath": "C:\\Users\\1212-2\\Desktop\\Miha\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj",
+        "projectPath": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\ASPBeauty.csproj",
         "packagesPath": "C:\\Users\\1212-2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1212-2\\Desktop\\Miha\\ASPBeauty-Diplomen\\ASPBeauty\\obj\\",
+        "outputPath": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen-main\\ASPBeauty-Diplomen-main\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\1212-2\\desktop\\aspbeauty-diplomen\\aspbeauty-diplomen\\aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\1212-2\\desktop\\aspbeauty-diplomen\\aspbeauty-diplomen\\aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASPBeauty\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASPBeauty\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-14T10:06:29.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPBeauty\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-2\\Desktop\\ASPBeauty-Diplomen\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPBeauty\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T09:42:09.157Z"
             }
           ]
         }
