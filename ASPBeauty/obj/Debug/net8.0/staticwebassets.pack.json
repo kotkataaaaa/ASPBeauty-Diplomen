@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\images\\beauty.png",
+      "PackagePath": "staticwebassets\\images\\beauty.png"
+    },
+    {
       "Id": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
