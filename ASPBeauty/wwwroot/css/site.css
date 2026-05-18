@@ -8,8 +8,13 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 html {
@@ -171,4 +176,230 @@ body {
     .cat-card:hover {
         transform: translateY(-5px);
         background: #f8c8dc;
+    }
+/* DROPDOWN MENU */
+
+.dropdown-menu {
+    background: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    min-width: 240px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    animation: dropdownFade 0.25s ease;
+}
+
+/* dropdown items */
+
+.dropdown-item {
+    border-radius: 12px;
+    padding: 10px 14px;
+    transition: 0.3s ease;
+    font-weight: 500;
+    color: #333;
+}
+
+    /* hover */
+
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        background-color: #fdecef !important;
+        color: #c85d7d !important;
+    }
+
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+    background-color: #fdecef !important;
+    color: #c85d7d !important;
+}
+
+/* dropdown animation */
+
+@keyframes dropdownFade {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nav-link:focus,
+.nav-link:active,
+.dropdown-toggle:focus,
+.dropdown-toggle:active,
+.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    color: #c85d7d !important;
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #fff7fa, #fdecef);
+}
+
+.contact-card {
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+    .contact-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .contact-card h1 {
+        color: #E75480;
+        margin-bottom: 20px;
+        font-size: 42px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+.contact-text {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-info p {
+    margin: 14px 0;
+    font-size: 18px;
+    color: #333;
+}
+/* PRODUCTS PAGE */
+
+.products-page {
+    padding: 60px 40px;
+    background: linear-gradient(to bottom, #fff7fa, #ffffff);
+    min-height: 100vh;
+}
+
+.products-title {
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 40px;
+    color: #E75480;
+    font-family: 'Great Vibes', cursive;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-8px);
+    }
+
+.product-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: center;
+}
+
+    .product-info h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+.product-category {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #E75480;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.details-btn,
+.edit-btn,
+.delete-btn,
+.create-product-btn {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.details-btn {
+    background: #E75480;
+    color: white;
+}
+
+    .details-btn:hover {
+        background: #d63f6f;
+    }
+
+.edit-btn {
+    background: #fdecef;
+    color: #c85d7d;
+}
+
+    .edit-btn:hover {
+        background: #f8d7e3;
+    }
+
+.delete-btn {
+    background: #333;
+    color: white;
+}
+
+    .delete-btn:hover {
+        background: #111;
+    }
+
+.create-btn-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.create-product-btn {
+    background: #E75480;
+    color: white;
+    font-size: 18px;
+}
+
+    .create-product-btn:hover {
+        background: #d63f6f;
     }

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\home\\promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\home\\promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|c:\\users\\diank\\desktop\\\u0434\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u043C\u0438\u0445\u0430\u0435\u043B\u0430 \u043A\u043E\u0441\u0442\u043E\u0432\u0430\\aspbeauty\\aspbeauty-diplomen\\aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D346FEC5-F6BF-49BA-A836-48F3CA6F743E}|ASPBeauty\\ASPBeauty.csproj|solutionrelative:aspbeauty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Promotions.cshtml",
-              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Promotions.cshtml",
-              "RelativeDocumentMoniker": "ASPBeauty\\Views\\Home\\Promotions.cshtml",
-              "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Promotions.cshtml",
-              "RelativeToolTip": "ASPBeauty\\Views\\Home\\Promotions.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T14:12:53.759Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ASPBeauty\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ASPBeauty\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:08:06.164Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPBeauty\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ASPBeauty\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T14:43:42.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ASPBeauty\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ASPBeauty\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T14:42:14.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "ASPBeauty\\Views\\Home\\Contacts.cshtml",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "ASPBeauty\\Views\\Home\\Contacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T14:38:20.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ASPBeauty\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ASPBeauty\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-21T05:48:41.625Z"
+              "WhenOpened": "2026-04-21T05:48:41.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ASPBeauty\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ASPBeauty\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAHABAAAAAAAAAAAIwJQBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-14T10:06:29.858Z"
+              "WhenOpened": "2026-04-14T10:06:29.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ASPBeauty\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\diank\\Desktop\\\u0414\u0438\u043F\u043B\u043E\u043C\u0435\u043D \u041C\u0438\u0445\u0430\u0435\u043B\u0430 \u041A\u043E\u0441\u0442\u043E\u0432\u0430\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ASPBeauty\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-14T09:42:09.157Z",
               "EditorCaption": ""

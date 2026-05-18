@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vrkbgdYErEQvQ+VudTsjUa6E9QV7ThQfLgk0tSZQyFw=",
+  "Hash": "ysYJh07OqyhKSYGqD5v/Gb2R5ggcjVfCmmAFeA7g6pA=",
   "Source": "ASPBeauty",
   "BasePath": "_content/ASPBeauty",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2nkqxbs4d9",
-      "Integrity": "/nc1/bbJ4wJqOuOeW74NR7UITIJM+77fROSZ5gy6hGg=",
+      "Fingerprint": "zeq0x8r6pi",
+      "Integrity": "RWkviIWZKmamBIMpAie7bjvEqxEvXal6C1TVyb7H8t8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2766,51 +2766,6 @@
       ]
     },
     {
-      "Route": "css/site.2nkqxbs4d9.css",
-      "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3289"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/nc1/bbJ4wJqOuOeW74NR7UITIJM+77fROSZ5gy6hGg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Apr 2026 08:43:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2nkqxbs4d9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/nc1/bbJ4wJqOuOeW74NR7UITIJM+77fROSZ5gy6hGg="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2821,7 +2776,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3289"
+          "Value": "4450"
         },
         {
           "Name": "Content-Type",
@@ -2829,11 +2784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/nc1/bbJ4wJqOuOeW74NR7UITIJM+77fROSZ5gy6hGg=\""
+          "Value": "\"RWkviIWZKmamBIMpAie7bjvEqxEvXal6C1TVyb7H8t8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Apr 2026 08:43:16 GMT"
+          "Value": "Mon, 18 May 2026 14:34:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2843,7 +2798,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/nc1/bbJ4wJqOuOeW74NR7UITIJM+77fROSZ5gy6hGg="
+          "Value": "sha256-RWkviIWZKmamBIMpAie7bjvEqxEvXal6C1TVyb7H8t8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zeq0x8r6pi.css",
+      "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RWkviIWZKmamBIMpAie7bjvEqxEvXal6C1TVyb7H8t8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 14:34:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zeq0x8r6pi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RWkviIWZKmamBIMpAie7bjvEqxEvXal6C1TVyb7H8t8="
         }
       ]
     },
