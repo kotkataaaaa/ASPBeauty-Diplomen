@@ -30,6 +30,7 @@
                             </a>
                         </li>
 
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark"
                                href="#"
@@ -40,21 +41,48 @@
                             <ul class="dropdown-menu">
                                 @if (ViewBag.Types != null)
                                 {
-                                    foreach (var type in ViewBag.Types)
+                                    @foreach (var type in ViewBag.Types)
                                     {
-                                        <li>
-                                            <a class="dropdown-item"
-                                               asp-controller="Products"
-                                               asp-action="Index"
-                                               asp-route-typeId="@type.Id">
-                                                @type.Name
-                                            </a>
-                                        </li>
+                                        if (!type.Name.ToLower().Contains("грим") &&
+                                        !type.Name.ToLower().Contains("очи") &&
+                                        !type.Name.ToLower().Contains("вежди") &&
+                                        !type.Name.ToLower().Contains("устни"))
+                                        {
+                                            <li>
+                                                <a class="dropdown-item"
+                                                   asp-controller="Products"
+                                                   asp-action="Index"
+                                                   asp-route-typeId="@type.Id">
+                                                    @type.Name
+                                                </a>
+                                            </li>
+                                        }
                                     }
                                 }
                             </ul>
                         </li>
 
+
+                        <!-- SKINCARE -->
+                        <ul class="dropdown-menu">
+                            @if (ViewBag.Types != null)
+                            {
+                                foreach (var type in ViewBag.Types)
+                                {
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Products"
+                                           asp-action="Index"
+                                           asp-route-typeId="@type.Id">
+                                            @type.Name
+                                        </a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                        </li>
+
+                        <!-- MAKEUP -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark"
                                href="#"
@@ -63,10 +91,43 @@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Грим за лице</a></li>
-                                <li><a class="dropdown-item" href="#">Грим за очи</a></li>
-                                <li><a class="dropdown-item" href="#">Вежди</a></li>
-                                <li><a class="dropdown-item" href="#">Устни</a></li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       asp-controller="Products"
+                                       asp-action="Index"
+                                       asp-route-typeId="6">
+                                        Грим за лице
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       asp-controller="Products"
+                                       asp-action="Index"
+                                       asp-route-typeId="7">
+                                        Грим за очи
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       asp-controller="Products"
+                                       asp-action="Index"
+                                       asp-route-typeId="8">
+                                        Вежди
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                       asp-controller="Products"
+                                       asp-action="Index"
+                                       asp-route-typeId="9">
+                                        Устни
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
 
@@ -93,16 +154,6 @@
                                 Контакти
                             </a>
                         </li>
-                                
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark"
-                               href="#"
-                               data-bs-toggle="dropdown">
-                                Грим
-                            </a>
 
                     </ul>
                     <partial name="_LoginPartial" />
