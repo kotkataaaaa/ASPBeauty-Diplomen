@@ -19,13 +19,27 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 align-items-center gap-2">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"
+                               asp-controller="Home"
+                               asp-action="Index">
+                                Начало
+                            </a>
+                        </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="skinDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-dark"
+                               href="#"
+                               id="skinDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
                                 Грижа за кожата
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="skinDropdown">
+
+                            <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Почистване на лице</a></li>
                                 <li><a class="dropdown-item" href="#">Кремове и хидратация</a></li>
                                 <li><a class="dropdown-item" href="#">Серуми</a></li>
@@ -35,16 +49,47 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="makeupDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-dark"
+                               href="#"
+                               id="makeupDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
                                 Грим
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="makeupDropdown">
+
+                            <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Грим за лице</a></li>
                                 <li><a class="dropdown-item" href="#">Грим за очи</a></li>
                                 <li><a class="dropdown-item" href="#">Вежди</a></li>
                                 <li><a class="dropdown-item" href="#">Устни</a></li>
                             </ul>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"
+                               asp-controller="Products"
+                               asp-action="Index">
+                                Каталог
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"
+                               asp-controller="Home"
+                               asp-action="Promotions">
+                                Промоции
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"
+                               asp-controller="Home"
+                               asp-action="Contacts">
+                                Контакти
+                            </a>
+                        </li>
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
