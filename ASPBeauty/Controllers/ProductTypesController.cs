@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPBeauty.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASPBeauty.Controllers
 {
+    [Authorize]
     public class ProductTypesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -51,6 +53,7 @@ namespace ASPBeauty.Controllers
         // POST: ProductTypes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description")] ProductType productType)

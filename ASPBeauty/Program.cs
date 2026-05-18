@@ -11,7 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-IMvcBuilder mvcBuilder = builder.Services.AddControllersWithViews();
+
    builder.Services.AddControllers(
    options =>
    options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
@@ -44,6 +44,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

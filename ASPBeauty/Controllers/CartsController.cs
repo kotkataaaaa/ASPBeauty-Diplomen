@@ -76,7 +76,7 @@ namespace ASPBeauty.Controllers
             return View(cart);
         }
 
-        //pochvam da promenqm
+        
 
         // GET: Carts/Edit/5
         public async Task<IActionResult> Edit(int? id)
