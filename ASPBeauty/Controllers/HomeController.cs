@@ -1,20 +1,31 @@
 using System.Diagnostics;
+using ASPBeauty.Data;
 using ASPBeauty.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ASPBeauty.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context, ILogger<HomeController> logger)
         {
+            _context = context;
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Contacts()
         {
+            ViewBag.Types = await _context.ProductTypes.ToListAsync();
+            return View();
+        }
+
+        public async Task<IActionResult> Promotions()
+        {
+            ViewBag.Types = await _context.ProductTypes.ToListAsync();
             return View();
         }
 
@@ -27,15 +38,6 @@ namespace ASPBeauty.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-        public IActionResult Promotions()
-        {
-            return View();
-        }
-
-        public IActionResult Contacts()
-        {
-            return View();
         }
     }
    

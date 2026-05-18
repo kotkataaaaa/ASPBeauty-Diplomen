@@ -21,12 +21,19 @@ namespace ASPBeauty.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? typeId)
         {
-            var applicationDbContext = _context.Products.Include(p => p.Type);
-            return View(await applicationDbContext.ToListAsync());
-        }
+            ViewBag.Types = await _context.ProductTypes.ToListAsync();
 
+            var products = _context.Products.Include(p => p.Type).AsQueryable();
+
+            if (typeId != null)
+            {
+                products = products.Where(p => p.TypeId == typeId);
+            }
+
+            return View(await products.ToListAsync());
+        }
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
         {

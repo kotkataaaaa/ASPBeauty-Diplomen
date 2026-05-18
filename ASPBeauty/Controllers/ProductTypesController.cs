@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ASPBeauty.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class ProductTypesController : Controller
     {
         private readonly ApplicationDbContext _context;

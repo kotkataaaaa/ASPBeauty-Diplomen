@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8l6u8VZEYUQGoyQ3UO9JrBCDvVVsCl9fL2bpBMNlps4=",
+  "Hash": "+lExA1rUr8EIuz307ahtNYA2A//rQIDe2DmKuZbePE4=",
   "Source": "ASPBeauty",
   "BasePath": "_content/ASPBeauty",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1rinuu49i1",
-      "Integrity": "rVSjciYzHkdgoNd/m7FD1zcD26Dt0T/QvNzUYvH/m9k=",
+      "Fingerprint": "ou2vxw2st9",
+      "Integrity": "MIG2vHysoOVwiZbpIX4vuoAKPVCItXVu3sk2CPZw5eM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2624,7 +2624,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 13:52:59 GMT"
+          "Value": "Mon, 18 May 2026 16:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2661,7 +2661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 13:52:59 GMT"
+          "Value": "Mon, 18 May 2026 16:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2706,7 +2706,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 13:52:59 GMT"
+          "Value": "Mon, 18 May 2026 16:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2751,7 +2751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 13:52:59 GMT"
+          "Value": "Mon, 18 May 2026 16:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2766,51 +2766,6 @@
       ]
     },
     {
-      "Route": "css/site.1rinuu49i1.css",
-      "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7413"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rVSjciYzHkdgoNd/m7FD1zcD26Dt0T/QvNzUYvH/m9k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 14:45:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1rinuu49i1"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rVSjciYzHkdgoNd/m7FD1zcD26Dt0T/QvNzUYvH/m9k="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2821,7 +2776,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7413"
+          "Value": "7458"
         },
         {
           "Name": "Content-Type",
@@ -2829,11 +2784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rVSjciYzHkdgoNd/m7FD1zcD26Dt0T/QvNzUYvH/m9k=\""
+          "Value": "\"MIG2vHysoOVwiZbpIX4vuoAKPVCItXVu3sk2CPZw5eM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 May 2026 14:45:04 GMT"
+          "Value": "Mon, 18 May 2026 15:24:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2843,7 +2798,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rVSjciYzHkdgoNd/m7FD1zcD26Dt0T/QvNzUYvH/m9k="
+          "Value": "sha256-MIG2vHysoOVwiZbpIX4vuoAKPVCItXVu3sk2CPZw5eM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ou2vxw2st9.css",
+      "AssetFile": "C:\\Users\\diank\\Desktop\\Дипломен Михаела Костова\\ASPBeauty\\ASPBeauty-Diplomen\\ASPBeauty\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MIG2vHysoOVwiZbpIX4vuoAKPVCItXVu3sk2CPZw5eM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 15:24:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ou2vxw2st9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MIG2vHysoOVwiZbpIX4vuoAKPVCItXVu3sk2CPZw5eM="
         }
       ]
     },

@@ -33,29 +33,32 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark"
                                href="#"
-                               id="skinDropdown"
-                               role="button"
-                               data-bs-toggle="dropdown"
-                               aria-expanded="false">
+                               data-bs-toggle="dropdown">
                                 Грижа за кожата
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Почистване на лице</a></li>
-                                <li><a class="dropdown-item" href="#">Кремове и хидратация</a></li>
-                                <li><a class="dropdown-item" href="#">Серуми</a></li>
-                                <li><a class="dropdown-item" href="#">Маски и пилинг</a></li>
-                                <li><a class="dropdown-item" href="#">Слънцезащита</a></li>
+                                @if (ViewBag.Types != null)
+                                {
+                                    foreach (var type in ViewBag.Types)
+                                    {
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Products"
+                                               asp-action="Index"
+                                               asp-route-typeId="@type.Id">
+                                                @type.Name
+                                            </a>
+                                        </li>
+                                    }
+                                }
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark"
                                href="#"
-                               id="makeupDropdown"
-                               role="button"
-                               data-bs-toggle="dropdown"
-                               aria-expanded="false">
+                               data-bs-toggle="dropdown">
                                 Грим
                             </a>
 
@@ -90,6 +93,16 @@
                                 Контакти
                             </a>
                         </li>
+                                
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark"
+                               href="#"
+                               data-bs-toggle="dropdown">
+                                Грим
+                            </a>
 
                     </ul>
                     <partial name="_LoginPartial" />
