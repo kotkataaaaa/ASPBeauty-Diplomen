@@ -67,11 +67,11 @@ namespace ASPBeauty.Services
                     var result = await userManager.CreateAsync(defaultUser, "123!@#Qwe");
                     if (result.Succeeded)
                     {
-                        await userManager.AddToRoleAsync(defaultUser, "Admin");
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.Guest.ToString());
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.User.ToString());                    
-                    }
+                    var createdUser = await userManager.FindByEmailAsync(defaultUser.Email);
+                    await userManager.AddToRoleAsync(createdUser, "Admin");
+                }
+            }
                 }
             }
         }
-    }
+    
