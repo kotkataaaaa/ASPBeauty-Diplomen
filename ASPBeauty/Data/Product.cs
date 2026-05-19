@@ -13,7 +13,7 @@ namespace ASPBeauty.Data
         public DateTime CreateOn { get; set; } 
         public ICollection<Promotion> Promotions { get; set; }
         public ICollection<Cart> Carts { get; set; }
-        
+       
 
 
 

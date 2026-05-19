@@ -23,7 +23,10 @@ namespace ASPBeauty.Controllers
         // GET: Promotions
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Promotions.ToListAsync());
+            var promotions = _context.Promotions
+                .Include(p => p.Product);
+
+            return View(await promotions.ToListAsync());
         }
 
         // GET: Promotions/Details/5
@@ -48,6 +51,9 @@ namespace ASPBeauty.Controllers
         [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
+            ViewData["ProductId"] =
+                new SelectList(_context.Products, "Id", "Name");
+
             return View();
         }
 

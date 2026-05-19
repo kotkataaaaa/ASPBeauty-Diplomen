@@ -44,6 +44,7 @@ namespace ASPBeauty.Controllers
             ViewBag.Types = await _context.ProductTypes.ToListAsync();
             return View();
         }
+
     }
 
 }

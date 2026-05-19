@@ -50,33 +50,43 @@ namespace ASPBeauty.Controllers
             return View(cart);
         }
 
-        // GET: Carts/Create
-        public IActionResult Create()
-        {
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name");
-            return View();
-        }
+       
 
         // POST: Carts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId")] Cart cart)
+        public async Task<IActionResult> Create(int productId)
         {
-           
-            if (ModelState.IsValid)
+            var user = await _userManager.GetUserAsync(User);
+
+            var existingCart = await _context.Carts
+     .FirstOrDefaultAsync(c =>
+         c.ProductId == productId &&
+         c.ClientId == user.Id);
+
+            if (existingCart != null)
             {
-                _context.Add(cart);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                existingCart.Quantity++;
             }
-          //  ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", cart.ProductId);
-            return View(cart);
+            else
+            {
+                Cart cart = new Cart()
+                {
+                    ProductId = productId,
+                    ClientId = user.Id,
+                    Quantity = 1
+                };
+
+                _context.Carts.Add(cart);
+            }
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
-        
+
 
         // GET: Carts/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -133,44 +143,42 @@ namespace ASPBeauty.Controllers
             return View(cart);
         }
 
-        // GET: Carts/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var cart = await _context.Carts
-                .Include(c => c.Client)
-                .Include(c => c.Product)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (cart == null)
-            {
-                return NotFound();
-            }
-
-            return View(cart);
-        }
-
         // POST: Carts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             var cart = await _context.Carts.FindAsync(id);
+
             if (cart != null)
             {
                 _context.Carts.Remove(cart);
             }
 
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        public async Task<IActionResult> Order()
+        {
+            var user = await _userManager.GetUserAsync(User);
 
+            var carts = _context.Carts
+                .Where(c => c.ClientId == user.Id);
+
+            _context.Carts.RemoveRange(carts);
+
+            await _context.SaveChangesAsync();
+
+            TempData["Success"] = "Поръчката беше направена успешно!";
+
+            return RedirectToAction(nameof(Index));
+        }
         private bool CartExists(int id)
         {
             return _context.Carts.Any(e => e.Id == id);
         }
     }
-}
+   
+    }

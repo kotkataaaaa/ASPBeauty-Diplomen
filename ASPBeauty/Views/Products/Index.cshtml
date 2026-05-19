@@ -46,7 +46,20 @@
                            class="details-btn">
                             Детайли
                         </a>
+                        <form asp-controller="Carts"
+                              asp-action="Create"
+                              method="post">
 
+                            <input type="hidden"
+                                   name="productId"
+                                   value="@item.Id" />
+
+                            <button type="submit"
+                                    class="btn btn-dark">
+                                Добави в количката
+                            </button>
+
+                        </form>
                         @if (User.IsInRole("Admin"))
                         {
                             <a asp-action="Edit"
